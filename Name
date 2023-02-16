@@ -1,0 +1,5 @@
+def NameFile():
+    name = "Taranjot Kaur"
+    with open ("my_name.txt", "w") as file:
+    file.write(name)
+    print("Name is written.")
